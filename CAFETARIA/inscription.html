@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+<head>
+<meta charset = "utf - 8"/>
+<title>projet bootstap</title>
+<meta name = "viewport" content = "width = divice- width , initial-scal = 1.0">
+<link href="css/styleInscription.css" rel="stylesheet">
+<link href = "css/animate.min.css" rel = "stylesheet">
+<link href = "css/bootstrap.min.css" rel = "stylesheet">
+<link href = "css/font-awesome.min.css" rel = "stylesheet">
+    <link rel="shortcut icon" href="imaho.JPG">
+ <style>        
+a:hover{
+ text-decoration:none;
+color: white;
+ 
+} 
+     a{
+        text-decoration:none;
+color: white; 
+     }
+ </style> 
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-offset-4 col-md-4" id = "corps">
+            <form class="wel" action="inscription.php" method="POST">
+            <legend>Idenifiez vous!!</legend> 
+            <div class = "form-group">
+                <label for="nom">Identifiant</label>
+                <input type = "text" id ="nom" name = "nom" class="form-control"placeholder = "identifiant">
+            </div>
+                <div class="form-group">
+                 <label for="mdp">Noveau mot de passe</label>
+                 <input type = "password" id ="mdp" name = "mdp" class="form-control"placeholder = "mot de passe">
+                </div>
+                <div class="form-group">
+                 <label for="cmdp">confirmer votre mot de passe</label>
+                 <input type = "password" id ="cmdp" name = "cmdp" class="form-control"placeholder = "confirmer mot de passe">
+                </div>
+                 <button class="btn btn-primary form-control" type = "submit"  name = "ENREGISTRER"><a href="inscription.php" >ENREGISTRER</a></button>
+            </form>
+            </div>
+        </div>
+    </div>
+    
+<script src= "js/bootstrap.min.js"></script>
+<script src = "js/imagesloaded.min.js"></script>
+<script src = "js/isotope.js"></script>
+<script src = "js/jquery.flexslider.js"></script>
+<script src = "js/jquery.js"></script>
+<script src = "js/smoothscroll.js"></script>
+<script src = "js/wow.min.js.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

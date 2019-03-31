@@ -1,0 +1,28 @@
+#corps{
+    margin-top: 100px;
+   background-color: #150906;
+    height: 300px;
+    border-radius: 20px;
+    color: beige;
+    font-weight: bolder;
+}
+legend{
+      color: beige;
+}
+h1{
+    color: aliceblue;
+}
+#nombre{
+    color: black;
+}
+
+h3{
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+    
+}
+h4{
+   /* border-width: 100%;*/
+    border-color: 5px solid red;
+}
